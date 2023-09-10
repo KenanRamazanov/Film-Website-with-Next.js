@@ -30,7 +30,7 @@ function FeaturedMovie({ movie = {}, isCompact = true }) {
         <div className={styles.moviePosterOverlay}></div>
         <Image
           unoptimized
-          src={`https://i0.wp.com/defendernetwork.com/wp-content/uploads/2022/10/Wakanda-forever.jpeg?fit=1200%2C675&ssl=1${poster_path}`}
+          src={`https://image.tmdb.org/t/p/original${poster_path}`}
           alt={title}
           fill
         />

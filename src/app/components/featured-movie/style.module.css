@@ -6,20 +6,18 @@
     margin-bottom: 56px;
   }
   
-  .moviePoster {
-  }
   
   .movieTitle {
     font-size: 72px;
     text-transform: uppercase;
     letter-spacing: -1px;
-    font-weight: 900;
+    font-weight: 700;
     line-height: 72px;
     max-width: 25ch;
   }
   
   .overview {
-    font-size: 24px;
+    font-size: 20px;
     max-width: 50ch;
   }
   
