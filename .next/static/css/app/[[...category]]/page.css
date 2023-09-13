@@ -1,58 +1,3 @@
-/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/app/components/categories/style.module.css ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************************/
-.style_categories__HXNPs {
-    display: flex;
-    height: 72px;
-    gap: 24px;
-  }
-  
-  .style_category__od2WN {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.75);
-    border: 1px solid #333;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    border-radius: 6px;
-    font-weight: 700;
-  }
-/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/app/components/movies-section/style.module.css ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************/
-.style_moviesSection__yB7WL {
-    margin-top: 36px;
-  }
-  
-  .style_title__qV_rJ {
-    margin-bottom: 12px;
-    text-transform: uppercase;
-    font-size: 24px;
-    letter-spacing: -1px;
-  }
-  
-  .style_movies___bgVN {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    grid-auto-rows: 320px;
-    grid-gap: 24px;
-    gap: 24px;
-  }
-  
-  .style_movie__S_5m5 {
-    overflow: hidden;
-    border-radius: 8px;
-    position: relative;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease;
-  }
-  
-  .style_movie__S_5m5:hover {
-    z-index: 9;
-    transform: scale(1.25);
-  }
 /*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/app/components/featured-movie/style.module.css ***!
   \********************************************************************************************************************************************************************************************************************************************************************************************/
@@ -135,4 +80,59 @@
     z-index: -2;
     max-height: 100vh;
     object-fit: cover;
+  }
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/app/components/categories/style.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+.style_categories__HXNPs {
+    display: flex;
+    height: 72px;
+    gap: 24px;
+  }
+  
+  .style_category__od2WN {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 1px solid #333;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    font-weight: 700;
+  }
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/app/components/movies-section/style.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+.style_moviesSection__yB7WL {
+    margin-top: 36px;
+  }
+  
+  .style_title__qV_rJ {
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: -1px;
+  }
+  
+  .style_movies___bgVN {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-auto-rows: 320px;
+    grid-gap: 24px;
+    gap: 24px;
+  }
+  
+  .style_movie__S_5m5 {
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+  }
+  
+  .style_movie__S_5m5:hover {
+    z-index: 9;
+    transform: scale(1.25);
   }
